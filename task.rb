@@ -47,7 +47,7 @@ def q6
   numbers1 = [1, 2, 3, 4, 5]
 
   # 以下に回答を記載
-  numbers2 = numbers1.map{|i| i * 10}
+  numbers2 = numbers1.map{|n| n * 10}
   p numbers2
 end
 
