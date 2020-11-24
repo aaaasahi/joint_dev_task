@@ -256,7 +256,7 @@ def q20
     UserQ20.new(name: "あじー", age: 32),
     UserQ20.new(name: "ぎん", age: 108)
   ]
-
+  
   users.each do |user|
     zoo.info_entry_fee(user)
   end
